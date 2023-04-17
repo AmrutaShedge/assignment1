@@ -1,0 +1,48 @@
+<mvc:View controllerName="assignment1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <List id="list"
+		headerText="Products">
+		<ObjectListItem id="laptop"
+			title="HP Laptop"
+			type="Active"
+			press="onListItemPress1"
+			number="50000"
+			numberUnit="INR">
+			<firstStatus>
+				<ObjectStatus id="Status"
+					text="Available"
+					 />
+
+			</firstStatus>
+		</ObjectListItem>
+		<ObjectListItem id="laptop1"
+			title="DELL Laptop"
+			type="Active"
+			press="onListItemPress2"
+			number="60000"
+			numberUnit="INR">
+			<firstStatus>
+				<ObjectStatus id="Status1"
+					text="Available"
+					 />
+
+			</firstStatus>
+		</ObjectListItem>
+		<ObjectListItem id="laptop2"
+			title="ACER Laptop"
+			type="Active"
+			press="onListItemPress3"
+			number="65000"
+			numberUnit="INR">
+			<firstStatus>
+				<ObjectStatus id="Status2"
+					text="Available"
+					 />		 
+
+			</firstStatus>
+		</ObjectListItem>
+	</List>
+    </Page>
+</mvc:View>
